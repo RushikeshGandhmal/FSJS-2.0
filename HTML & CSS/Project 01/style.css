@@ -1,0 +1,86 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.nav-button {
+  background-color: #5955b3;
+  color: #ffffff;
+  border: none;
+  padding: 1.4rem 2.4rem;
+  border-radius: 10px;
+  font-size: 1.8rem;
+}
+
+/* Navbar---------- */
+.navbar-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 4.8rem 9.6rem;
+}
+
+.navbar-container div img {
+  height: 3.8rem;
+  width: 15rem;
+}
+
+.banner-container div img {
+  height: 54rem;
+  width: 91rem;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  position: relative;
+  flex-wrap: wrap;
+  left: -20rem;
+  gap: 3rem;
+}
+
+.list-item {
+  color: rgb(145, 145, 145);
+  font-size: 2rem;
+}
+
+.list-item:first-child {
+  color: #000000;
+  font-weight: bold;
+}
+
+.banner-container {
+  margin: 9.6rem 0 0 9rem;
+  display: flex;
+}
+
+.heading-text {
+  margin-top: 4rem;
+  font-size: 6.4rem;
+  line-height: 6.4rem;
+}
+
+.heading-text span {
+  color: #5955b3;
+}
+
+.btn {
+  padding: 1.4rem 2.8rem;
+  font-size: 2.4rem;
+}
+
+.description {
+  width: 36rem;
+  font-size: 1.8rem;
+  margin: 2rem 0 6.4rem 1rem;
+  color: rgb(145, 145, 145);
+}

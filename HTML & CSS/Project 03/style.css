@@ -1,0 +1,162 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 90%;
+  margin: auto;
+}
+
+/* Navbar--------------------- */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Orbitron", Helvetica, sans-serif;
+  font-weight: 600;
+  margin: 2.4rem 0;
+  height: 10vh;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.list-item:nth-child(1) {
+  font-size: 1.3rem;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.list-item {
+  margin: 0 1.8rem;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+}
+
+.square img {
+  position: absolute;
+  bottom: 4rem;
+  left: 9rem;
+}
+
+.person {
+  display: inline-block;
+  height: 30rem;
+  width: 30rem;
+}
+
+.hero-image {
+  width: 45rem;
+}
+
+button {
+  padding: 0.5rem 3rem;
+  background-color: transparent;
+  border-radius: 0.5rem;
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 1.1rem;
+  margin-left: 1rem;
+}
+
+/*  Hero Section --------------*/
+.hero-container {
+  position: relative;
+  display: flex;
+  gap: 5rem;
+}
+
+.square {
+  position: absolute;
+  z-index: -1;
+  bottom: -70px;
+}
+
+.hero-container-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Orbitron", Helvetica, sans-serif;
+  margin: 5rem 1rem 2rem 4rem;
+}
+
+.hero-description {
+  font-family: "Poppins", Helvetica, sans-serif;
+  width: 60%;
+  text-align: center;
+  color: rgb(69, 69, 69);
+  margin-bottom: 5rem;
+}
+
+.button-join,
+.button-email {
+  font-family: "Orbitron", Helvetica, sans-serif;
+  font-weight: 800;
+  margin-bottom: 5rem;
+}
+
+.button-email {
+  color: rgb(59, 59, 59);
+  border-color: rgb(59, 59, 59);
+}
+
+.button-join {
+  background-color: #000;
+  color: #fff;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", Helvetica, sans-serif;
+  margin-top: 5rem;
+}
+
+.contact-heading {
+  text-align: center;
+  font-weight: 400;
+  font-size: larger;
+  color: rgb(59, 59, 59);
+  margin-bottom: 1rem;
+}
+
+/* extra images */
+.star,
+.star2,
+.globe {
+  position: absolute;
+}
+
+.globe {
+  top: 0rem;
+  left: 55%;
+}
+
+.star {
+  top: 0rem;
+  right: 10%;
+}
+.star2 {
+  bottom: 0rem;
+  left: 40rem;
+  width: 5rem;
+}

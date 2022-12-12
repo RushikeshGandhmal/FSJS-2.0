@@ -1,0 +1,100 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", serif;
+}
+
+.logo {
+  display: block;
+  height: 2.4rem;
+  width: 8rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 2.4rem;
+  height: 10vh;
+}
+
+section[aria-label="navbar"] {
+  background-color: #000;
+}
+
+.line {
+  position: relative;
+  left: -8rem;
+  width: 1px;
+  height: 40px;
+  background: #fff;
+}
+
+.button-small,
+.button-large {
+  background-color: #ba0bf4;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 15px;
+  height: 36px;
+  line-height: 20px;
+  margin-left: 8px;
+  margin-right: 6px;
+  min-width: 160px;
+  padding: 0 16px 0 16px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.button-large {
+  letter-spacing: 0.9;
+  font-weight: 700;
+  height: 50px;
+  width: 250px;
+}
+
+.list {
+  display: flex;
+  color: #fff;
+  list-style: none;
+  font-size: 1rem;
+  gap: 4rem;
+  position: relative;
+  left: -16rem;
+}
+
+.hero {
+  text-align: center;
+  height: 90vh;
+  background-image: url("./assets/bg.png");
+  background-size: contain;
+}
+
+.hero-heading {
+  line-height: 5rem;
+  letter-spacing: -0.1rem;
+  position: relative;
+  left: 20rem;
+  width: 60rem;
+  color: #fff;
+  font-size: 4.8rem;
+  padding-top: 4.8rem;
+}
+
+.hero-description {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-bottom: 2.4rem;
+}
