@@ -38,12 +38,76 @@ Default: 1
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #555;
+  color: #d1cfcf;
 }
 
 html {
   font-size: 62.5%;
+}
+
+/***********************************/
+/* HEADER */
+/***********************************/
+
+.header {
+  background-color: #151515;
+}
+.sub-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 9.6rem;
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 4.2rem;
+  cursor: pointer;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+  font-size: 1.6rem;
+  list-style: none;
+  cursor: pointer;
+}
+
+.side-list {
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+  font-size: 1.6rem;
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+.eng::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 36px;
+  border-top: 4px solid white;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: none;
+}
+
+.contact::before {
+  content: "";
+  position: absolute;
+  left: 60px;
+  background-image: url(./Icons/btn-pink-bg.svg);
+  height: 20px;
+  width: 70px;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
 }
