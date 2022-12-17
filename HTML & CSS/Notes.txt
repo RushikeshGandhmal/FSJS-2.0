@@ -1,0 +1,17 @@
+This is because padding behaves a little weird for inline elements. You can set left and right padding on them, and it will work as expected:
+
+1) creates spacing inside the element,
+
+2) which results in making the element wider, which pushes elements around it accordingly.
+
+
+
+BUT vertical padding (top and bottom) does not work like that:
+
+1) it still creates spacing inside the element (top and bottom)
+
+2) the element also becomes taller, BUT it will not push elements around it (above or below)!
+
+
+
+From the POV of elements above/below them, its as if the padding-top and padding-bottom didn't exist. This causes the "boxes" of inline elements to overlap into others.
