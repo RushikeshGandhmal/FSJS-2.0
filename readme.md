@@ -8,4 +8,6 @@
 
 ### **[✔ HTML & CSS](https://github.com/RushikeshGandhmal/FSJS-2.0/tree/master/HTML%20%26%20CSS)**
 
-### **[✔ JavaScript]()**
+### **[✔ JavaScript Q&A](https://github.com/RushikeshGandhmal/FSJS-2.0/tree/master/HTML%20%26%20CSS)**
+
+### **[✔ Vanilla JavaScript](https://github.com/RushikeshGandhmal/FSJS-2.0/tree/master/JavaScript)**

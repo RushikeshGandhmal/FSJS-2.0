@@ -28,3 +28,5 @@ It is best to attach it to a section of a web page.	           It is best to att
 It accepts align attribute.	                                   It does not accept align attribute.
 This tag should be used to wrap a section,			   This tag should be used to wrap any specific word that you want to highlight in your webpage.
 for highlighting that section.	
+
+-------------- what is meta tag -------------------------------
