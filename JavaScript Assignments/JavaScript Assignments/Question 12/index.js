@@ -1,14 +1,14 @@
-//12. Create a human readable time format using the Date time object
+// 12. Create a human readable time format using the Date time object
 //- YYYY-MM-DD HH:mm
 //- DD-MM-YYYY HH:mm
 //- DD/MM/YYYY HH:mm
 
 function addZeroBeforeSingleDigit(param) {
-    if (param < 10) {
-        param = "0" + param;
-        return param;
-    }
+  if (param < 10) {
+    param = "0" + param;
     return param;
+  }
+  return param;
 }
 
 const date = new Date();
@@ -19,15 +19,14 @@ let month = date.getMonth() + 1;
 month = addZeroBeforeSingleDigit(month);
 
 let dateToday = date.getDate();
+console.log(dateToday);
 dateToday = addZeroBeforeSingleDigit(dateToday);
 
 let hours = date.getHours();
 hours = addZeroBeforeSingleDigit(hours);
 
 let mins = date.getMinutes();
-mins = addZeroBeforeSingleDigit(mins)
-
-
+mins = addZeroBeforeSingleDigit(mins);
 
 //- YYYY-MM-DD HH:mm
 const dateFormat1 = `${year}-${month}-${dateToday} ${hours}:${mins}`;
@@ -37,7 +36,6 @@ const dateFormat2 = `${dateToday}-${month}-${year} ${hours}:${mins}`;
 const dateFormat3 = `${dateToday}/${month}/${year} ${hours}:${mins}`;
 
 //output
-console.log(`Date Format 1 ${dateFormat1}
-Date Format 2 ${dateFormat2}
-Date Format 3 ${dateFormat3}`)
-
+console.log(`Date Format 1 : ${dateFormat1}
+Date Format 2 : ${dateFormat2}
+Date Format 3 : ${dateFormat3}`);

@@ -2,7 +2,7 @@
 
 const countries = ["INDIA", "USA", "AMERICA", "JAPAN", "ETHOPIA"];
 if (countries.includes("ETHOPIA")) {
-    console.log("ETHOPIA");
+  console.log("ETHOPIA");
 } else {
-    countries.push("ETHOPIA");
+  countries.push("ETHOPIA");
 }
